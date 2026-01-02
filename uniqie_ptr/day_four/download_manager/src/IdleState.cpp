@@ -11,7 +11,7 @@ void IdleState::start(DownloadManager& manager){
 }
 
 void IdleState::pause(DownloadManager& manager){
-    std::cout << "Nothing to pause" << std::endl;
+    std::cout << "Nothing to pause!" << std::endl;
     std::cout << std::endl;
 }
 
