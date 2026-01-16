@@ -25,13 +25,16 @@ int main(){
         std::cout << '\n';
     }
     
-    for(int i = 0; i < n; i++){
-        std::vector<int>temp = matrix[i];
-        for(int k = 0; k < n; k++){
-            
+    for(int i = 0; i < n-1; i++){
+        std::vector<int> tempa = matrix[i+1];
+        for(int k = i; k < n-i; k++){
+            matrix[k][n-1-i] = tempa[k];
         }
 
-    } 
+
+    }
+    
+
     std::cout << '\n';
 
     for(int i = 0; i < n; i++){
