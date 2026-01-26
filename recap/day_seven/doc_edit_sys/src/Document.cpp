@@ -13,7 +13,11 @@ void Document::read(){
 
 void Document::write(std::string text){
     if(isLocked == true){
-        content = content + " " + text;
+        if(content.size() == 0){
+            content = text;
+        }else{
+            content += text;
+        }
     }else{
         std::cout << "Unable to write in the document" << '\n';
     }

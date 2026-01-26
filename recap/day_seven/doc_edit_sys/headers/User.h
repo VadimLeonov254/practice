@@ -1,15 +1,18 @@
 #ifndef USER_H
 #define USER_H
 #include<vector>
+#include<memory>
 #include "EditorSession.h"
 #include "Document.h"
 
+class EditorSession;
+
 class User{
 private:
-    std::vector<EditorSession> sessions;
+    std::vector<std::unique_ptr<EditorSession>> sessions;
 
 public:
-    void addSession(EditorSession& session);
+    void addSession(std::unique_ptr<EditorSession> session);
 };
 
 #endif

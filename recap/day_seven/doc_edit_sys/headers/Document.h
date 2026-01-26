@@ -1,5 +1,6 @@
 #ifndef DOCUMENT_H
 #define DOCUMENT_H
+#include<string>
 
 class Document{
 private:
