@@ -1,3 +1,0 @@
-/mnt/c/Users/vadle/practice/dsa/day_six/longest_repeating_replacement/build/CMakeFiles/main.dir
-/mnt/c/Users/vadle/practice/dsa/day_six/longest_repeating_replacement/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/vadle/practice/dsa/day_six/longest_repeating_replacement/build/CMakeFiles/rebuild_cache.dir

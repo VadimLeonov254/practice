@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/vadle/practice/dsa/day_six/longest_repeating_replacement
+# Install script for directory: /mnt/c/Users/vadle/practice/lld/memory_layout_false_sharing/stack_vs_heap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/vadle/practice/dsa/day_six/longest_repeating_replacement/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/vadle/practice/lld/memory_layout_false_sharing/stack_vs_heap/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
